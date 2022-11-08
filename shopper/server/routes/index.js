@@ -7,6 +7,7 @@ const basketRoute = require('./basket');
 
 module.exports = (config) => {
   const router = express.Router();
+
   router.get('/', (req, res) => {
     res.render('index');
   });

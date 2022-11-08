@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "ioredis": "^5.2.4",
+    "mongoose": "^6.7.2",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
